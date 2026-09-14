@@ -1,8 +1,7 @@
 #include <iostream>
 #include "Queue.h"
 
-int main()
-{
+int main(){
 	Queue<int> queue;
 	printf(queue.isEmpty() ? "La cola esta vacia? Si (isEmpty)\n\n" : "La cola esta vacia? No (isEmpty)\n\n");
 
@@ -16,7 +15,8 @@ int main()
 	printf("Elemento al comienzo de la fila (peek): %d\n\n", queue.peek());
 
 	while (!queue.isEmpty()){
-		printf("Se elimino el numero [%d] de la fila (pop) \n", queue.pop());
+		printf("Se elimino el numero [%d] de la fila (pop) \n", 
+			queue.pop());
 	}
 
 	printf(queue.isEmpty() ? "\nAhora esta vacia la fila? Si (isEmpty)\n" : " \nAhora esta vacia la fila? No (isEmpty)\n");
