@@ -1,9 +1,9 @@
 Lista Enlazada de Tipo Cola (Queue)
 1. Descripción
-Este proyecto implementa una cola (Queue) genérica utilizando una lista enlazada simple como estructura de datos subyacente. Cada elemento de la cola se representa mediante un nodo (Node<T>) que almacena un valor y un puntero al siguiente nodo, formando una cadena enlazada. La cola mantiene dos punteros — uno al frente (top) y otro al final (tail) — para garantizar operaciones de inserción y extracción en tiempo constante O(1).
-•	Estructura de datos: Lista enlazada simple (singly linked list) con política FIFO (First In, First Out).
+Este proyecto implementa una cola (Queue) genérica utilizando una lista enlazada simple como estructura de datos.La cola mantiene dos punteros — uno al frente (top) y otro al final (tail).
+•	Estructura de datos: Lista enlazada simple.
 •	Lenguaje de programación: C++.
-•	Paradigma de programación: Programación orientada a objetos (encapsulamiento mediante clases con atributos privados y métodos públicos), combinada con programación genérica a través de plantillas de clase (template<typename T>), lo que permite que la cola almacene cualquier tipo de dato sin duplicar código.
+•	Paradigma de programación: Programación orientada a objetos.
 
 2. Requerimientos de software
 Para compilar y ejecutar este proyecto se necesita:
