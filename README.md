@@ -7,11 +7,11 @@ Este proyecto implementa una cola (Queue) genérica utilizando una lista enlazad
 
 2. Requerimientos de software
 Para compilar y ejecutar este proyecto se necesita:
-•	Compilador de C++ compatible con el estándar C++11 o superior: 
+•	Compilador de C++. 
 o	Windows: MinGW-w64 (provee g++.exe)
 o	Linux: g++ (usualmente ya incluido; en caso contrario, instalar el paquete build-essential)
 o	macOS: Command Line Tools de Xcode (xcode-select --install)
-•	Editor de código (opcional, recomendado): Visual Studio Code con la extensión oficial C/C++ (ms-vscode.cpptools) para compilación y depuración integradas.
+•	Editor de código (opcional, recomendado): Visual Studio Code con la extensión oficial C/C++ para compilación y depuración integradas.
 •	No se requieren librerías externas: el proyecto solo usa la biblioteca estándar de C++ (<stdexcept>, <iostream>).
 Verificar la instalación del compilador con:
 g++ --version
@@ -23,7 +23,7 @@ Opción A: Desde la terminal
 1. Ubicarse en el escritorio, clonar el repositorio y ubicarse en la carpeta del proyecto:
   cd <nombre de su escritorio>
   git clone https://github.com/BRAYAYIN666/ListaEnlazadaDeTipoCola.git
-  cd <nombre de carpeta del proyecto que desee darle>
+  cd <nombre de carpeta del proyecto>
 2. Compilar el proyecto:
    g++ -std=c++11 main.cpp -o programa
 3. Ejecutar el programa generado:
@@ -33,4 +33,4 @@ Opción A: Desde la terminal
 Opción B: Desde Visual Studio Code
 1. Abrir la carpeta del proyecto en VSCode.
 2. Tener instalada la extensión C/C++ de Microsoft.
-3. Abrir `main.cpp` y presionar F5 para compilar y ejecutar.
+3. Abrir main.cpp y presionar F5 para compilar y ejecutar.
